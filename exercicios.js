@@ -83,3 +83,5 @@ while (contador4 <= 0) {
   alert(contador4);
   contador4++;
 }
+
+let palavraPessoa = quantidadePessoas == 1 ? "pessoa" : "pessoas";
