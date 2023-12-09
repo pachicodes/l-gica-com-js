@@ -9,8 +9,9 @@ prompt("Qual é o seu nome?");
 prompt("Qual é a sua idade?");
 if (idade >= 18) {
   alert("Pode tirar a habilitação!");
+} else {  
+  alert("Não pode tirar a habilitação!");
 }
-
 
 // Pergunte ao usuário qual é o dia da semana. Se a resposta for "Sábado" ou "Domingo", mostre "Bom fim de semana!". Caso contrário, mostre "Boa semana!".
 let dia = prompt("Qual é o dia da semana?");
